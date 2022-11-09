@@ -4,8 +4,9 @@ margin: auto;
 body {
 text-align:center; 
 }
-div {
-background: url() no-repeat;
+table {
+border=1 
+width=100%
 }
 h1 {
 text-align:center;
@@ -28,6 +29,8 @@ font-family: 'Prata', Serif;
 ul {
 text-align:center;
 font-family: 'Prata', Serif;
+border-collapse: collapse;
+border: 2px solid rgb(200,200,200);
 letter-spacing: 1px;
 font-size: 0.8rem;
 }
@@ -47,4 +50,12 @@ font-size: 0.8rem;
   background-color: red;
   color: white;
   text-align: center;
+}
+#picture img {
+width: 40%;
+height: 350px;
+}
+#pictures img {
+width: 30%;
+height: 350px;
 }
