@@ -47,6 +47,7 @@ font-size: 0.8rem;
   left: 0;
   bottom: 0;
   width: 100%;
+  background-color: red;
   color: white;
   text-align: center;
 }
@@ -56,5 +57,9 @@ height: 350px;
 }
 #pictures img {
 width: 30%;
+height: 350px;
+}
+#picturess img {
+width: 15%;
 height: 350px;
 }
